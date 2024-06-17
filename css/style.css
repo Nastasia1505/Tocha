@@ -43,7 +43,6 @@ body {
 .promo {
   background-image: url(/img/BG.png);
   background-repeat: no-repeat;
-  background-size: contain;
   background-size: 100%;
   padding-top: 125px;
   height: 100%;
@@ -134,7 +133,8 @@ body {
 }
 
 .tariff {
-  padding-top: 100px;
+  padding: 100px 0;
+
 }
 
 .tariff__title {
@@ -154,6 +154,7 @@ body {
 .tariff__list {
   display: flex;
   justify-content: space-between;
+  
 }
 
 .tariff__card {
@@ -185,4 +186,90 @@ body {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 45px;
+}
+
+.connection__title{
+  font-size: 46px;
+  line-height: 64px;
+  text-align: center;
+}
+
+.connection__img{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.subscribe{
+  background-image: url(/img/subscribeBG.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.subscribe .container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.subscribe__content{
+  width: 40%;
+
+}
+
+.subscribe__title{
+  font-size: 33px;
+  line-height: 41px;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 30px;
+}
+
+.subscribe__input{
+  font-size: 15px;
+  line-height: 24px;
+  color: rgba(71, 74, 87, 1);
+  padding: 15px;
+  border-radius: 5px 0px 0px 5px;
+  border: 0;
+}
+
+.subscribe__btn{
+  border-radius: 0px 5px 5px 0px;
+  border: 0;
+  padding: 15px 25px;
+  background-color: rgba(24, 25, 31, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.subscribe__content form{
+  display: flex;
+}
+
+.footer{
+  background-color: rgba(29, 37, 48, 1);
+  padding-top: 110px;
+  padding-bottom: 80px;
+}
+
+.footer .container{
+  display: flex;
+}
+
+.footer__support{
+  display: flex;
+  
+}
+
+.footer__title{
+color: rgba(244, 245, 247, 1);
+font-size: 20px;
+line-height: 30px;
+}
+
+.footer__link{
+  text-decoration: none;
+  color: rgba(238, 239, 244, 1);
+  font-size: 16PX;
+  line-height: 26px;
 }
