@@ -113,7 +113,8 @@ body {
 
 .about .container {
   display: flex;
-  gap: 80px;
+  /* gap: 80px; */
+  justify-content: space-around;
 }
 
 .about__content {
@@ -174,10 +175,12 @@ body {
 .tariff__list {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
+  overflow: hidden;
 }
 
 .tariff__card {
-  max-width: 350px;
+ width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -185,9 +188,12 @@ body {
   border-radius: 6px;
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
   background-color: rgba(245, 246, 253, 1);
+  margin-bottom: 20px;
+  /* overflow: hidden; */
 }
 
 .tariff__card-white {
+ width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -285,6 +291,7 @@ body {
 .connection__step_title-main {
   font-size: 19px;
   line-height: 29px;
+  text-align: center;
 }
 
 .connection__step_text-main {
@@ -316,6 +323,7 @@ body {
   justify-content: space-between;
   gap: 30px;
   margin-bottom: 30px;
+  overflow: hidden;
 }
 
 .reviews__comment {
@@ -324,6 +332,7 @@ body {
   padding: 32px 32px 60px 32px;
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
   position: relative;
+  width: 540px;
 }
 
 .triangle {
@@ -334,7 +343,7 @@ body {
 .triangle::after {
   content: "";
   position: absolute;
-  left: 290px;
+  left: 250px;
   top: 0;
   border: 15px solid transparent;
   border-top: 15px solid rgb(255, 255, 255);
@@ -344,6 +353,7 @@ body {
   font-size: 18px;
   line-height: 28px;
   margin-bottom: 20px;
+ 
 }
 
 .reviews__card_text {
@@ -391,10 +401,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-
-/* .subscribe__img{
-  
-} */
 
 .subscribe .container {
   display: flex;
@@ -450,7 +456,8 @@ body {
 
 .footer__support {
   display: flex;
-  gap: 125px;
+  justify-content: space-between;
+ 
 }
 
 .footer__list {
