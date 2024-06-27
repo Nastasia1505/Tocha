@@ -17,6 +17,16 @@
             <img src="./img/tocha.png" alt="tocha" />
           </div>
           <nav class="nav">
+            <button class="nav__toggle">
+              <label for="nav__toggle">
+                <div class="burger_menu">
+                  <div class="line line-violet"></div>
+                  <div class="line line-blue"></div>
+                  <div class="line line-turquoise"></div>
+                </div>
+              </label>
+            </button>
+            <input type="checkbox" id="nav__toggle" />
             <ul class="nav__list">
               <li class="nav__item">
                 <a class="nav__link" href="/">Подключение</a>
@@ -146,13 +156,13 @@
             <div class="circle"></div>
           </div>
         </div>
-        </div>
       </section>
       <section class="connection">
         <div class="container">
           <h2 class="connection__title">
             Всего 3 шага для подключения Telegram чата
           </h2>
+          <img class="connection__img" src="./img/lines.svg" alt="#" />
           <div class="connection__list">
             <div class="connection__step">
               <div class="step__circle"></div>
@@ -163,11 +173,11 @@
               </p>
               <img
                 class="connection__step_img"
-                src="./img/connection1.png"
+                src="./img/connection1.svg"
                 alt="phone"
               />
             </div>
-            <div class="connection__step">
+            <div class="connection__step connection__step-main">
               <div class="step__circle"></div>
               <p class="connection__step_num">2</p>
               <h5 class="connection__step_title-main">Подключение Tocha</h5>
@@ -176,7 +186,7 @@
               </p>
               <img
                 class="connection__step_img"
-                src="./img/connection2.png"
+                src="./img/connection2.svg"
                 alt="phone"
               />
             </div>
@@ -189,7 +199,7 @@
               </p>
               <img
                 class="connection__step_img"
-                src="./img/connection3.png"
+                src="./img/connection3.svg"
                 alt="phone"
               />
             </div>
