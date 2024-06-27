@@ -56,11 +56,6 @@
     gap: 30px;
   }
 
-  .tariff__list {
-    margin-right: -10%;
-    overflow: hidden;
-  }
-
   .footer__main .container {
     display: flex;
     justify-content: space-around;
@@ -82,6 +77,21 @@
 
   .connection__step_img {
     width: 215px;
+  }
+
+  .tariff__list {
+    margin-right: -10%;
+    overflow: hidden;
+  }
+
+  .connection__list {
+    overflow: hidden;
+    margin-right: -10%;
+  }
+
+  .reviews__list {
+    overflow: hidden;
+    margin-right: -10%;
   }
 }
 
