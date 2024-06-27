@@ -471,6 +471,7 @@ body {
   padding: 15px;
   border-radius: 5px 0px 0px 5px;
   border: 0;
+  margin-bottom: 40px;
 }
 
 .subscribe__btn {
@@ -479,6 +480,7 @@ body {
   padding: 15px 25px;
   background-color: rgba(24, 25, 31, 1);
   color: rgba(255, 255, 255, 1);
+  margin-bottom: 40px;
 }
 
 .subscribe__content form {
@@ -499,11 +501,11 @@ body {
 
 .footer__support {
   display: flex;
-  justify-content: space-between;
+  gap: 100px;
 }
 
 .footer__list {
-  width: 35%;
+  width: 50%;
 }
 
 .footer__item_title {
