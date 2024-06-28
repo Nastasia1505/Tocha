@@ -28,10 +28,6 @@
   }
 }
 
-.tariff__card-white {
-  width: 330px;
-}
-
 @media (max-width: 1320px) {
   .container {
     width: 85%;
@@ -195,6 +191,8 @@
   .subscribe__title {
     font-size: 24px;
     line-height: 32px;
+    text-align: center;
+    margin-top: 30px;
   }
 
   .subscribe__img {
@@ -216,8 +214,21 @@
     margin-right: -10%;
   }
 
-  .nav__toggle {
+  .nav__toggle{
     display: block;
+  }
+
+  .nav__toggle label {
+    display: block;
+  }
+
+  #nav__toggle:checked ~ .nav__list {
+    display: flex;
+  }
+
+  .nav__list{
+    display: none;
+    position: relative;
   }
 
   .nav__list {
@@ -235,9 +246,6 @@
 }
 
 @media (max-width: 425px) {
-  .nav {
-    display: none;
-  }
 
   .promo .container {
     display: flex;
@@ -284,6 +292,10 @@
   .triangle::after {
     left: 150px;
     top: 0;
+  }
+
+  .footer__support{
+    gap: 30px;
   }
 
   .footer__main {
