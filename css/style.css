@@ -44,7 +44,7 @@ body {
   display: none;
 }
 
-.nav__toggle label{
+.nav__toggle {
   display: none;
   background-color: transparent;
   border: none;
@@ -55,9 +55,9 @@ body {
   cursor: pointer;
 }
 
-#nav__toggle {
+/* #nav__toggle {
   display: none;
-}
+} */
 
 .burger_menu {
   display: flex;

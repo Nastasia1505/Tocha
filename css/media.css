@@ -218,11 +218,15 @@
     display: block;
   }
 
-  .nav__toggle label {
+  /* .nav__toggle label {
     display: block;
-  }
+  } */
 
-  #nav__toggle:checked ~ .nav__list {
+  /* #nav__toggle:checked ~ .nav__list {
+    display: flex;
+  } */
+
+  .nav__list-activ{
     display: flex;
   }
 
